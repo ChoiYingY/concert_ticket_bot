@@ -25,17 +25,13 @@ donePaymentWindow = False
 
 load_dotenv()
 
-# ************** IMPORTANT!!!! Substitute information here **************
-# fill in login info
+# set up login info, preloaded from .env file
 email = os.getenv('EMAIL')
 password = os.getenv('PASSWORD')
 paypal_email = os.getenv('PAYPAL_EMAIL')
 paypal_password = os.getenv('PAYPAL_PASSWORD')
 
-# fill in path to chromedriver
-# chromedrive_path = 'path_to_chromedriver'
-chromedrive_path = '/Users/krystal/Downloads/chromedriver_mac64/chromedriver'   # <- my path but plz edit to yours
-
+# ************** IMPORTANT!!!! Substitute information here **************
 # fill in concert info
 concert_id = '45718'
 concert_date = "2023-06-10"
@@ -44,6 +40,10 @@ concert_time = "17:00"
 # concert_id = '45711'
 # concert_date = "2023-06-23"
 # concert_time = "19:00"
+
+# fill in path to chromedriver
+# chromedrive_path = 'path_to_chromedriver'
+chromedrive_path = '/Users/krystal/Downloads/chromedriver_mac64/chromedriver'   # <- my path but plz edit to yours
 
 # choose payment method: paypal(pp) <- curr default payment / credit card (cc) ****
 payment_option = "pp"
