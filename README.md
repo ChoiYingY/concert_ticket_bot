@@ -45,5 +45,5 @@ download the file from provided google drive link
 
 ### 9. start application - enter command `python3 bot.py`
 run this python file will open new chrome browser and enter stuff<br>
--> this application still you to 1) pick seat & 2) confirm payment MANUALLY!!!!<br>
+<strong>-> this application will still require you to 1) pick seat & 2) confirm payment MANUALLY!!!!</strong><br>
 -> if you see some error shown on website, for example entering information, just click next bec bot may click btn too fast
